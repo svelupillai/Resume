@@ -9,10 +9,10 @@ function AboutMe() {
     <Card  className="AboutMe">
     <Card.Body>
         <Row>
-        <Col xs={4} md={4}>
-            <Image src={logo} width="70%" roundedCircle/>
+        <Col xs={12} md={4} className="text-center">
+            <Image src={logo} className="myPic" roundedCircle/>
         </Col>
-        <Col xs={8} md={8}>
+        <Col xs={12} md={8}>
             <Card.Title className="mt-4">
                 <span>About Me</span>
                 <a target="_blank"  rel="noopener noreferrer" href="https://ca.linkedin.com/in/senagavelupillai"><i className="fab fa-linkedin-in ml-4"></i></a>

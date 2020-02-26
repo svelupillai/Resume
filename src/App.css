@@ -60,3 +60,14 @@
     transform: rotate(360deg);
   }
 }
+
+.myPic {
+  width: 230px;
+}
+
+
+@media screen and (max-width: 415px) {
+  .myPic {
+    width:200px;
+  }
+}

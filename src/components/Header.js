@@ -4,8 +4,9 @@ import {Navbar, Nav} from 'react-bootstrap';
 
 function Header(){
     return (
-        <Navbar fixed='top' bg="dark" variant="dark">
+        <Navbar collapseOnSelect fixed='top' expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="#Home">SV</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
                 <Nav>
                     <Nav.Link href="#AboutMe">About Me</Nav.Link>
