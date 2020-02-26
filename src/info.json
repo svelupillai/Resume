@@ -1,0 +1,19 @@
+{
+    "Education": 
+    [
+        {"school": "Concordia University (2015-2019)", "degree": "Software Engineering with Co-op", "body":"I graduated from Concordia University with distinction in May of 2019. I was on deans list every year of my academic career here and received a total of three scholarships. This degree gave me the necessary skills in order to tackle OOP and software design. I have accomplished a number of projects that took me through the entire life cycle of shipping a product."},
+        {"school": "Vanier College (2013-2015)", "degree": "Pure & Applied Sciences", "body": "My time at Vanier is when I understood my love for applied sciences. I enjoyed my math, and physics courses. In my last year I took an intro to web development class that lead me to find out that my true passion existed in technology!"}          
+    ],
+
+    "Experience":
+    [
+        {"company": "Genetec", "time":"May 2019 - Current", "position": "Software Developer", "body":""},
+        {"company": "AppDirect", "time":"May 2018- May 2019", "position": "Web Application Developer", "body":""},
+        {"company": "Vigilant, A DRW Company", "time": "May 2017 - August 2017", "position": "Web Developer Intern", "body": ""},
+        {"company": "Vigilant, A DRW Company", "time": "September 2016 - December 2016", "position": "Web Developer Intern", "body": ""}
+    ],
+
+    "Skills": [],
+
+    "Projects": []
+}

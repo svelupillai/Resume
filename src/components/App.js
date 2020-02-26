@@ -3,6 +3,7 @@ import '../App.css';
 import Header from './Header';
 import Home from './Home';
 import AboutMe from './AboutMe';
+import Education from './Education'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Home/>
       <AboutMe />
+      <Education />
     </div>
   );
 }
