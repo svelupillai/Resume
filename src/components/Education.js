@@ -1,27 +1,29 @@
 import React from 'react';
-import {Image, Card, Col, Row} from 'react-bootstrap';
+import {Card, Col, Row} from 'react-bootstrap';
 import info from '../info.json';
 
 
 function Education(){
     return (
-        <div id="Education">
-            <Card>
-                <Card.Body>
-                    <Card.Title>Education</Card.Title>
-                    {info.Education.map(i => 
-                        <Row key={i.school+i.degree}>
-                            <Col>{i.school}</Col>
-                            <Col>{i.degree}
-                                {i.body}
-                            </Col>
-                        
-                        </Row>
-                    )}
-                </Card.Body>
+        <Card id="Education" className="AboutMe">
+            <Card.Body>
+                <Card.Title><h4>Education</h4></Card.Title>
+                {info.Education.map(i => 
+                    <Row key={i.school+i.degree}>
+                        <Col xs={12} md={3}>
+                        <div>
+                            <h6 className="mb-0">{i.school}</h6> 
+                            <small>{i.degree}</small>
+                        </div>
+                        </Col>
+                        <Col xs={12} md={8} className="mb-4"> 
+                            {i.body}
+                        </Col>
+                    </Row>
+                )}
+            </Card.Body>
 
-            </Card>
-        </div>
+        </Card>
     );
 }
 
