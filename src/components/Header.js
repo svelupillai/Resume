@@ -15,11 +15,11 @@ export default class Header extends Component{
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
                 <Nav>
-                    <Nav.Link onClick={() => this.scrollTo("AboutMe")}>About Me</Nav.Link>
-                    <Nav.Link onClick={() => this.scrollTo("Education")}>Education</Nav.Link>
-                    <Nav.Link onClick={() => this.scrollTo("Experience")}>Experience</Nav.Link>
-                    <Nav.Link onClick={() => this.scrollTo("Skills")}>Skills</Nav.Link>
-                    <Nav.Link onClick={() => this.scrollTo("Projects")}>Projects</Nav.Link>
+                    <Nav.Link eventKey="1" onClick={() => this.scrollTo("AboutMe")}>About Me</Nav.Link>
+                    <Nav.Link eventKey="2" onClick={() => this.scrollTo("Education")}>Education</Nav.Link>
+                    <Nav.Link eventKey="3" onClick={() => this.scrollTo("Experience")}>Experience</Nav.Link>
+                    <Nav.Link eventKey="4" onClick={() => this.scrollTo("Skills")}>Skills</Nav.Link>
+                    <Nav.Link eventKey="5" onClick={() => this.scrollTo("Projects")}>Projects</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
