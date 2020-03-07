@@ -5,15 +5,15 @@ import logo from '../senaga.png';
 
 function AboutMe() {
   return (
-    <Card  className="AboutMe" id="AboutMe">
+    <Card  className="AboutMe rounded-0" id="AboutMe">
     <Card.Body>
         <Row>
         <Col xs={12} md={4} className="text-center">
             <Image src={logo} className="myPic" roundedCircle/>
         </Col>
-        <Col xs={12} md={8}>
+        <Col xs={12} md={7}>
             <Card.Title className="row m-auto">
-                <h4>About Me</h4>
+                <h4 className="font-weight-normal">About Me</h4>
                 <a target="_blank"  rel="noopener noreferrer" href="https://ca.linkedin.com/in/senagavelupillai"><i className="fab fa-linkedin-in ml-4 mt-1"></i></a>
                 <a target="_blank"  rel="noopener noreferrer" href="https://github.com/svelupillai"><i className="fab fa-github ml-2 mt-1"></i></a>
                 <a target="_blank"  rel="noopener noreferrer" href="mailto:senagav@gmail.com?Subject=Hi"><i className="fa fa-envelope ml-2 mt-1"></i></a>
@@ -35,7 +35,7 @@ function AboutMe() {
                 Feel free to contact me!
             </p>
             </Card.Text>
-        </Col>
+            </Col>
         </Row>
     </Card.Body>
     </Card>

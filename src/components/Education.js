@@ -5,9 +5,9 @@ import info from '../info.json';
 
 function Education(){
     return (
-        <Card id="Education" className="AboutMe">
+        <Card id="Education" className="AboutMe rounded-0">
             <Card.Body>
-                <Card.Title><h4>Education</h4></Card.Title>
+                <Card.Title><h4 className="font-weight-normal">Education</h4></Card.Title>
                 {info.Education.map(i => 
                     <Row key={i.school+i.degree}>
                         <Col xs={12} md={3}>
@@ -22,7 +22,6 @@ function Education(){
                     </Row>
                 )}
             </Card.Body>
-
         </Card>
     );
 }

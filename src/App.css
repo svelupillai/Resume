@@ -66,6 +66,9 @@
   width: 230px;
 }
 
+.pointer {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 415px) {
   .myPic {

@@ -7,10 +7,10 @@
 
     "Experience":
     [
-        {"company": "Genetec", "time":"May 2019 - Current", "position": "Software Developer", "body":""},
-        {"company": "AppDirect", "time":"May 2018- May 2019", "position": "Web Application Developer", "body":""},
-        {"company": "Vigilant, A DRW Company", "time": "May 2017 - August 2017", "position": "Web Developer Intern", "body": ""},
-        {"company": "Vigilant, A DRW Company", "time": "September 2016 - December 2016", "position": "Web Developer Intern", "body": ""}
+        {"company": "Genetec", "time":"May 2019 - Current", "position": "Software Developer", "body":"Contributing to Genetec's ever growing security software. I primarily use C# here to implement features for clients and fix bugs as I go. I am also very much involved in ameliorating our software cycle by implementing new processes in order to make the team more efficient."},
+        {"company": "AppDirect", "time":"May 2018- May 2019", "position": "Web Application Developer", "body":"Developed core features to ticketing web app, using primarily C# and ReactJS, that is the primary product of the Montreal location. Was one of the two people who transformed this application to new a stack, seeing the product from start to finish."},
+        {"company": "Vigilant, A DRW Company", "time": "May 2017 - August 2017", "position": "Web Developer Intern", "body": "Developed an application using primarily: C#, ReactJS, .NET Core and Google Maps API that went on to be used by the company founder for trading purposes. Took on sole contribution to this project, which allowed me to be apart of the full development cycle from requirements elicitation to deployment."},
+        {"company": "Vigilant, A DRW Company", "time": "September 2016 - December 2016", "position": "Web Developer Intern", "body": "Developed two applications from scratch for HR purposes, using C#, ReactJS, .NET Core and Nodejs. Provided support for bug fixing across multiple applications."}
     ],
 
     "Skills": [],
