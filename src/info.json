@@ -19,6 +19,8 @@
     ],
 
     "Projects": [
-        
+        {"name": "Document Generator", "stakeholder":"Genetec", "timeFrame":"September 2018 - April 2019", "description": "This project was done for capstone - a final year project for engineering. This app processes SDKs and XMLs to extract C# triple slashes in the code. The extracted information is displayed in the corresponding sections, i.e as classes, interfaces, etc. I was a strong contributor in both backend and frontend aspects, and advocated agile processes such as sprint planning. I was hired as a full-time developer during the development of this project. Technology Applied: C#, ReactJS, Redux, MongoDB."},
+        {"name": "AnyMemo", "stakeholder":"Concordia University", "timeFrame": "January 2018 - May 2018", "description": "This project was entailed developping additional features to the open source AnyMemo flashcard application. I added core features including: favourites deck, hint mode and history deck. Technology Applied: Java, Android SDK tools."},
+        {"name": "Apollo Store", "stakeholder": "Concordia University", "timeFrame":"September 2017 - December 2017", "description": "This project is an online electronics store with two types of users: clients and admins. Clients can browse inventory and buy electronics. Admins can add/delete/update the inventory. I developed the database schemas to ensure there was consistencies, implemented the data mapper design pattern and developed important user features. Technology Applied: Python, Flask, HTML, Bootstrap, MySQL."}  
     ]
 }
