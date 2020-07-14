@@ -7,6 +7,7 @@ import Education from './Education'
 import Experience from './Experience'
 import Skills from './Skills'
 import Projects from './Projects';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <Skills />
       <Projects />
+      <Footer/>
     </div>
   );
 }

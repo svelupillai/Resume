@@ -70,6 +70,10 @@
   cursor: pointer;
 }
 
+.grey {
+  background-color: #5d5b5b !important;
+}
+
 @media screen and (max-width: 415px) {
   .myPic {
     width:200px;
