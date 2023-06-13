@@ -23,7 +23,7 @@ function AboutMe() {
                 I graduated from Concordia with a bachelors of software engineering with honours.
                 I have a strong passion for full stack web development and have been since the start of my software adventure.
                 I have experience going through the entire life cycle of shipping features - from gathering requirements to testing.
-                Currently, I am working as a software developer at Genetec, adding to their ever growing products and fine tuning my OOP skills. 
+                Currently, I am working as a senior software developer at AppDirect, focusing on coming up with technical design, developing, and deploying feature platform features. 
             </p>
             <p>
                 Problem solving is the main reason as to why I even went into computer science! 
