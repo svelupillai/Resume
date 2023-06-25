@@ -2,10 +2,10 @@ import React from 'react';
 import {Card, Col, Row} from 'react-bootstrap';
 import info from '../info.json';
 
-function Experience(){
+const Experience = () =>
 
-    return (
-        <Card id="Experience" className="AboutMe rounded-0">
+(
+    <Card id="Experience" className="AboutMe">
         <Card.Body>
             <Card.Title><h4 className="font-weight-normal">Experience</h4></Card.Title>
             {info.Experience.map(i => 
@@ -26,7 +26,6 @@ function Experience(){
             )}
         </Card.Body>
     </Card>
-    );
-}
+);
 
 export default Experience;

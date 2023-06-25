@@ -3,6 +3,11 @@
   height: 100%;
 }
 
+.arrow {
+  font-size: xxx-large;
+  padding-top: 10%;
+}
+
 .Home{
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,27 +15,29 @@
   background-size: cover;
   height: 100vh;
   width:100%;
-  opacity: 0.08;
   display: block;
-
+  padding-top: 100px;
 }
 
 .title{
   position: absolute;
-  top: 50%;
-  width:100%;
+  top: 30%;
+  width: 100%;
+  display: flex
 }
 .JobDescription{
   color: white;
   position: relative;
   text-align: center;
   background-color: #282c34 !important;
+  padding-top: 100px;
 }
 
 .AboutMe{
   background-color: #E0E0E0;
-  margin: 1%;
+  margin-top: 1%;
   padding-top: 40px;
+  border-radius: 0.25rem;
 }
 
 .App-logo {
@@ -63,7 +70,8 @@
 }
 
 .myPic {
-  width: 230px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 .pointer {
@@ -74,8 +82,54 @@
   background-color: #5d5b5b !important;
 }
 
+.fade-in-para {
+  animation: bounce2 2s ease;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
 @media screen and (max-width: 415px) {
   .myPic {
     width:200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .arrow {
+    font-size: large;
+    padding-top:0%
+  }
+
+}
+
+.fade-in-left {
+  animation: fade-in-left 2s ease;
+}
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-down {
+  animation: fade-in-down 2s ease infinite;
+}
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

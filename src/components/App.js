@@ -9,19 +9,19 @@ import Skills from './Skills'
 import Projects from './Projects';
 import Footer from './Footer';
 
-function App() {
-  return (
+const App = () =>
+( 
     <div className="App">
       <Header />
-      <Home/>
-      <AboutMe/>
-      <Education />
-      <Experience />
-      <Skills />
-      <Projects />
+      <Home className="anim-delay-500ms"/>
+      <AboutMe className="anim-delay-1000ms"/>
+      <Skills className="anim-delay-1500ms"/>
+      <Experience className="anim-delay-2000ms"/>
+      <Education className="anim-delay-500ms"/>
+      <Projects className="anim-delay-500ms"/>
       <Footer/>
     </div>
-  );
-}
+);
+
 
 export default App;
