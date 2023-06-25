@@ -21,7 +21,7 @@ const Home = () =>
                     <br/>
                     Currently working at AppDirect and filling her days engineering solutions,
                     <br/> 
-                    bringing the solutions to life and releasing them as critical features.
+                    bringing those solutions to life and releasing them as critical features.
                     <br/>
                     </div>
                 </div>

@@ -27,7 +27,9 @@ const Skills = () =>
                     <Row>
                     <Col xs={12} md={12}>
                     {
-                        i.skills.map(skill => <span>&nbsp;{skill.name} | </span>)
+                        i.skills.map((skill, idx) => <span>&nbsp;{skill.name} 
+                        {idx+1 === i.skills.length ? "" : " |"} </span>
+                        )
                     }
                     </Col>
                     </Row>
