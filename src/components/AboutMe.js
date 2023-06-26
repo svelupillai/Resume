@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Image, Card, Col, Row} from 'react-bootstrap';
-import {Link} from 'react-router-dom'
 import logo from '../images/hiking.jpg';
+import ExamplePdf from './SenagaVelupillaiResume.pdf';
 
 const AboutMe= () =>
 (   
@@ -16,7 +16,7 @@ const AboutMe= () =>
             <Card.Title className="row m-auto">
                 <h4 className="font-weight-normal">A little about me</h4>
                 <a target="_blank"  rel="noopener noreferrer" href="https://ca.linkedin.com/in/senagavelupillai"><i className="fab fa-linkedin-in ml-4 mt-1"></i></a>
-                <Link target="_blank" to='/files/SenagaVelupillaiResume.pdf' download><i class="fa fa-file  ml-2 mt-1"></i></Link>
+                <a target="_blank" href={ExamplePdf} download><i class="fa fa-file  ml-2 mt-1"></i></a>
                 <a target="_blank"  rel="noopener noreferrer" href="https://github.com/svelupillai"><i className="fab fa-github ml-2 mt-1"></i></a>
                 <a target="_blank"  rel="noopener noreferrer" href="mailto:senagav@gmail.com?Subject=Hi"><i className="fa fa-envelope ml-2 mt-1"></i></a>
             </Card.Title>
