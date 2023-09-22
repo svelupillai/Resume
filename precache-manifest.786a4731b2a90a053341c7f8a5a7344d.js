@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76d3fa8924cd5a6a8f6edbcee20660b4",
+    "revision": "77422d3b6cae0ffa6336752bc2ce38bf",
     "url": "/Resume/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Resume/static/css/2.a5ffdf52.chunk.css"
   },
   {
-    "revision": "6b8df52d2eb4b5e1987e",
-    "url": "/Resume/static/css/main.a860a4de.chunk.css"
+    "revision": "08a7aa1ae04b19d9a518",
+    "url": "/Resume/static/css/main.e515bd52.chunk.css"
   },
   {
     "revision": "407e4e86e0427e020003",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Resume/static/js/2.20a01871.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b8df52d2eb4b5e1987e",
-    "url": "/Resume/static/js/main.3a2c0e8c.chunk.js"
+    "revision": "08a7aa1ae04b19d9a518",
+    "url": "/Resume/static/js/main.d5ee24a6.chunk.js"
   },
   {
     "revision": "865fd0710f524cf53c64",
     "url": "/Resume/static/js/runtime-main.b09bcda9.js"
   },
   {
-    "revision": "808500a8f2d3cd7607970c52a2db8901",
-    "url": "/Resume/static/media/SenagaVelupillaiResume.808500a8.pdf"
+    "revision": "1858d1dea9630f33f2128963288dbd10",
+    "url": "/Resume/static/media/Senaga-Velupillai-Resume.1858d1de.pdf"
   },
   {
     "revision": "bff04d3253c839fd55dd1820dccfca55",
