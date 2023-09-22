@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {Image, Card, Col, Row} from 'react-bootstrap';
 import logo from '../images/hiking.jpg';
-import ExamplePdf from './SenagaVelupillaiResume.pdf';
+import ExamplePdf from './Senaga-Velupillai-Resume.pdf';
 
 const AboutMe= () =>
 (   

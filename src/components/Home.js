@@ -4,6 +4,11 @@ import back from '../code.jpg'
 import {Image, Card, Col, Row} from 'react-bootstrap';
 import logo from '../images/senaga.png';
 
+const scrollTo = (id) => {
+    var elmnt = document.getElementById(id);
+    elmnt.scrollIntoView();
+}
+
 const Home = () =>
 (
     <Card className='JobDescription Home fade-in-left' id="Home">
@@ -25,7 +30,9 @@ const Home = () =>
                     <br/>
                     </div>
                 </div>
-                <div className='arrow fade-in-down'>&#x2193;</div>
+                <div className='arrow fade-in-down'>
+                    <div className= 'pointer' onClick={() => scrollTo("AboutMe")}>&#x2193;</div>
+                </div>
             </Card.Text>
             </Col>
         </Row>

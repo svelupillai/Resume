@@ -13,12 +13,12 @@ const App = () =>
 ( 
     <div className="App">
       <Header />
-      <Home className="anim-delay-500ms"/>
-      <AboutMe className="anim-delay-1000ms"/>
-      <Skills className="anim-delay-1500ms"/>
-      <Experience className="anim-delay-2000ms"/>
-      <Education className="anim-delay-500ms"/>
-      <Projects className="anim-delay-500ms"/>
+      <Home />
+      <AboutMe />
+      <Skills />
+      <Experience />
+      <Education />
+      <Projects />
       <Footer/>
     </div>
 );

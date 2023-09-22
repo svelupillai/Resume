@@ -8,6 +8,10 @@
   padding-top: 10%;
 }
 
+:hover .pointer {
+  cursor: pointer;
+}
+
 .Home{
   -webkit-background-size: cover;
   -moz-background-size: cover;
